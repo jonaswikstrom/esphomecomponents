@@ -1,6 +1,8 @@
 #include "esphome/core/log.h"
 #include "empty_component.h"
-#include "Wisadsde.h"
+
+#include "SparkFunLSM6DSO.h"
+#include "Wire.h"
 
 namespace esphome {
 namespace empty_component {
