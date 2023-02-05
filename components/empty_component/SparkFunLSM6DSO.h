@@ -27,10 +27,10 @@ Distributed as-is; no warranty is given.
 #ifndef __LSM6DSOIMU_H__
 #define __LSM6DSOIMU_H__
 
-#include <stdint.h>
-#include <Wire.h>
-#include <SPI.h>
-#include <Arduino.h>
+#include "stdint.h"
+#include "Wire.h"
+#include "SPI.h"
+#include "Arduino.h"
 
 #define I2C_MODE 0
 #define SPI_MODE 1
